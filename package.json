@@ -1,0 +1,20 @@
+{
+  "name": "@trying-dev/power-common",
+  "version": "1.0.0",
+  "main": "src/index.tsx",
+  "description": "A powerful application created by Trying Dev",
+  "type": "module",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trying-dev/power-common.git"
+  },
+  "scripts": {
+    "build": "tsc --build tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "notistack": "^3.0.1",
+    "react-full-screen": "^1.1.1"
+  }
+}
